@@ -1,5 +1,5 @@
 # Insighter
-# Insight Copilot – Development Master Plan
+# Insighter – Development Master Plan
 
 > **目的** : 個人投資家向け「リアルタイム異常検知 × 中長期シナリオ × 根拠提示 (Explainable AI)」Web アプリを **7 スプリント (約 6 週間)** で PoC→公開まで完成させる。
 
@@ -247,5 +247,5 @@ CMD ["uvicorn", "src.insight_copilot.main:app", "--host", "0.0.0.0", "--port", "
 | **ホットリロード** | `--reload` を有効にし、`docker compose` で volume mount すると保存即反映 |
 | **非 root** | セキュリティ向上 (`USER appuser`) |
 
-> **Tip**: Cloud Run デプロイ時は `--reload` を削除して `--workers 4` 等に置き換えるとスループットが向上します。
+> **Tip**: Cloud Run デプロイ時は `--reload` を削除して `--workers 4` 等に置き換えるとスループットが向上
 
